@@ -1,0 +1,9 @@
+body { font-family: Inter, Arial, sans-serif; margin: 20px; background:#f7f7f7; }
+#app { max-width:1000px; margin:0 auto; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+table { width:100%; border-collapse:collapse; margin-top:16px; }
+th, td { padding:8px 10px; border-bottom:1px solid #eee; text-align:left; }
+th { cursor:pointer; user-select:none; }
+.captcha img { height:60px; }
+button { padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+button.primary { background:#2563eb; color:#fff; border-color:#2563eb; }
+.form-row { margin-bottom:12px; }

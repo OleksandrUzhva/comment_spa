@@ -1,0 +1,32 @@
+__pycache__
+
+# Virtual environments
+.venv/
+
+# =========================
+# Vue / Node
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+*.tsbuildinfo
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Docker
+# =========================
+docker/*.log
+docker/nginx/*.log
+docker/nginx/cache/
+docker/nginx/temp/
+docker/redis/data/
